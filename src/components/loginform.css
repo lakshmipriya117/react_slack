@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+
+h3 {
+    display: flex;
+    flex-direction: row;
+  }
+  h3:before, h3:after{
+    content: "";
+    flex: 1 1;
+    border-bottom: 1px solid black;
+    margin: auto;
+  }
+  h3:before {
+    margin-right: 10px
+  }
+  h3:after {
+    margin-left: 10px
+  }
+
+.imgs {
+    padding-top: 5px;
+    justify-content: center;
+    display: flex;
+    margin-top: 2.5em;
+  }
+.container-image {
+  background-color: rgb(223, 221, 221); 
+  border-radius: 5px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 115px;
+  width: 200px;
+}
+.logo {
+  height: 115px;
+  width: 200px;
+  border-radius: 5px;
+} 
+
+.page {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cover {
+    background-color: white;
+    width: 35em;
+    height: 46em;
+    position: relative;
+    border-radius: 1em;
+    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.alt-login {
+    width: 80%;
+    height: 3em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.alt-login div {
+    width: 45%;
+    height: 90%;
+    border-radius: 0.25em;
+    /* background-color: black; */
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.google {
+    background-image: url("../icons/google.png");
+    width: 2.5em;
+    background-repeat: no-repeat;
+    
+    background-color: rgb(26, 66, 41);
+        }
+.facebook {background-image: url("../icons/facebook.png");
+    background-color: blue;
+}
+
+input {
+    border: none;
+    background-color: rgb(229, 226, 226);
+    height: 4em;
+    width: 70%;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 2em;
+    
+}
+.link{
+    font-size: 15px;
+    font-weight: 400;
+    
+}
+
+input:focus {
+    outline-color: rgb(32, 177, 255);
+}
+
+.login-btn {
+    width: 70%;
+    height: 3em;
+    background-color: rgb(46, 12, 46);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 0.5em;
+    cursor: pointer;
+}
+
+.login-btn:hover { transform: scale(1.25);}
+
+.text {
+    position: relative;
+    bottom: -2em;
+}
+
+.hide {
+    position: absolute;
+    transform: scale(0);
+}
+
+.login-popup {
+    position: absolute;
+    height: 30em;
+    width: 30em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.25em;
+    background-color: black;
+    color: white;
+    bottom: 0;
+    transform: scale(1);
+    transition: 1.5s;
+}
