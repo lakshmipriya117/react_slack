@@ -30,7 +30,7 @@ const LoginForm = () => {
              <div className="login-btn" onClick={popup}>Continue</div>
 
 
-            <h4>OR</h4>
+            <h5>OR</h5>
 
             <a class="btn btn-secondary card__google" href="https://google.com" target=""_blank style={{color:"blue",background:"white",border:"solid blue"}}><i class="fab fa-google">
             </i>&nbsp;Continue with Google</a>
@@ -41,14 +41,14 @@ const LoginForm = () => {
             <p className="x">Already using slack?</p>
             <a href="login.html" className="y">Sign into existing workplace</a>
             <div className='link'>
-             <a href="#">Privacy</a>
-             <a href="#" >Contact US</a>
-             <a href="#" >Change region</a>
+             <a href="#" style={{color:"black",padding:"20px 20px 20px 20px"}}>Privacy</a>
+             <a href="#" style={{color:"black",padding:"20px 20px 20px 20px"}} >Contact US</a>
+             <a href="#" style={{color:"black",padding:"20px 20px 20px 20px"}}>Change region</a>
 
             </div>
 
             <div className={popupStyle}>
-                <h4>Login Successful</h4>
+                <h5>Login Successful</h5>
                 
             </div>
             
