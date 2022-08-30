@@ -1,31 +1,30 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-family:Slack-Larsseit,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
 }
-h1{
+.heading{
+    font-family: Slack-Larsseit,Helvetica Neue,Helvetica,Segoe UI,Tahoma,Arial,sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -.75px;
+    line-height: 46px;
+    margin-bottom: 10px;
+    max-width: 700px;
     text-align: center;
 }
-h2{
+.s-head{
+    color: #454245;
+    font-size: 18px;
+    line-height: 27px;
+    margin-bottom: 32px;
+    max-width: 700px;
     text-align: center;
+    font-weight: 500;
+    margin-top: 32px;
 }
 
-h3 {
-    display: flex;
-    flex-direction: row;
-  }
-  h3:before, h3:after{
-    content: "";
-    flex: 1 1;
-    border-bottom: 1px solid black;
-    margin: auto;
-  }
-  h3:before {
-    margin-right: 10px
-  }
-  h3:after {
-    margin-left: 10px
-  }
+
 
 .imgs {
     padding-top: 5px;
@@ -35,19 +34,36 @@ h3 {
   }
 .container-image {
   background-color: rgb(223, 221, 221); 
-  border-radius: 5px;
+  border-radius: 2px;
   align-items: center;
   display: flex;
   justify-content: center;
-  height: 115px;
-  width: 200px;
+  height: 95px;
+  width: 150px;
+  margin-top: 40px;
 }
 .logo {
-  height: 115px;
-  width: 200px;
+  height: 95px;
+  width: 150px;
   border-radius: 5px;
 } 
-
+h4 {
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+h4:before, h4:after{
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid black;
+  margin: auto;
+}
+h4:before {
+  margin-right: 10px
+}
+h4:after {
+  margin-left: 10px
+}
 .page {
     height: 100vh;
     width: 100%;
@@ -58,54 +74,28 @@ h3 {
 
 .cover {
     background-color: white;
-    width: 35em;
+    width: 40em;
     height: 46em;
     position: relative;
     border-radius: 1em;
-    box-shadow: 0 0.188em 1.550em rgb(156, 156, 156);
+    /* box-shadow: 0 0.188em 1.550em rgb(156, 156, 156); */
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
 }
 
-.alt-login {
-    width: 80%;
-    height: 3em;
-    display: flex;
-    justify-content: space-around;
-}
-
-.alt-login div {
-    width: 45%;
-    height: 90%;
-    border-radius: 0.25em;
-    /* background-color: black; */
-    background-position: center;
-    background-size: contain;
-    background-repeat: no-repeat;
-    cursor: pointer;
-}
-
-.google {
-    background-image: url("../icons/google.png");
-    width: 2.5em;
-    background-repeat: no-repeat;
-    
-    background-color: rgb(26, 66, 41);
-        }
-.facebook {background-image: url("../icons/facebook.png");
-    background-color: blue;
-}
-
 input {
-    border: none;
-    background-color: rgb(229, 226, 226);
+  border: 1px solid #ced4da;
+    background-color: white;
     height: 4em;
-    width: 70%;
+    width: 60%;
     border-radius: 0.25em;
     text-align: center;
-    padding: 2em;
+    padding: 11px 12px 13px;
+    height: 44px;
+    font-size: 18px;
+    line-height: 1.33333333;
     
 }
 .link{
@@ -119,9 +109,9 @@ input:focus {
 }
 
 .login-btn {
-    width: 70%;
+    width: 60%;
     height: 3em;
-    background-color: rgb(46, 12, 46);
+    background-color: rgb(79, 25, 79);
     color: white;
     display: flex;
     justify-content: center;
@@ -129,9 +119,55 @@ input:focus {
     transition: 0.5s;
     border-radius: 0.5em;
     cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
-.login-btn:hover { transform: scale(1.25);}
+.login-btn:hover { transform: scale(1);}
+
+.card__apple{
+    border-radius: 0;
+    border-width: medium;
+    padding:.6rem 1.3rem;
+    background-color: #fff;
+    border: 2px solid green;
+    width: 60%;
+    height: 45px;
+    font-size:20px;
+    padding:10px;
+    margin:3px 7rem;
+  }
+  .card__apple:hover{
+    cursor:pointer;
+    background-color: rgb(108, 92, 201);
+  }
+
+.card__google{
+    border-radius: 0;
+    border-width: medium;
+    padding:.6rem 1.3rem;
+    background-color: #fff;
+    border: 2px solid #4285f4;
+    color: #4285f4;
+    width: 60%;
+    height: 45px;
+    font-size:20px;
+    padding:10px;
+    margin:10px 11rem;
+  }
+  .card__google:hover{
+    cursor:pointer;
+    background-color: rgb(108, 92, 201);
+  }
+  .x{
+    margin-top: 15px;
+    font-size: 17px;
+  }
+  .y{
+    font-size: 17px;
+    margin-bottom: 15px;
+    margin-top: 2px;
+  }
 
 .text {
     position: relative;
@@ -157,4 +193,75 @@ input:focus {
     bottom: 0;
     transform: scale(1);
     transition: 1.5s;
+}
+@media screen and (max-width: 768px) {
+  .heading{
+    font-size: 80%;
+  }
+
+  .s-head{
+    margin-top: 10px;
+  }
+  input {
+    height: 60%;
+    width: 90%; 
+    margin-top: 50%;  
+}
+.login-btn{
+  height: 120%;
+    width: 90%;
+    margin-bottom: 10px; 
+}
+.login-btn:hover { transform: scale(1);}
+
+  .imgs {
+    padding-top: 2px;
+    justify-content: center;
+    display: flex;
+    margin-top: .1em;
+  }
+  .container-image {
+    
+   
+    height: 75px;
+    width: 100px;
+    margin-top: 3px;
+  }
+  .logo {
+    height: 95px;
+    width: 150px;
+    border-radius: 5px;
+    margin-top: 2px;
+  } 
+  .heading{
+    
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: -.75px;
+    line-height: 46px;
+    margin-bottom: 10px;
+    max-width: 700px;
+    text-align: center;
+}
+.card__apple{
+  font-size: 1.5rem;
+  margin: 1rem .5rem;
+  width: 90%;
+  height:100%;
+}
+.card__google{
+ font-size: 1.5rem;
+  margin: 1rem .5rem;
+  width: 90%;
+  height:100%;
+}
+.page{
+  height: 100%;
+}
+.login-popup {
+  position: absolute;
+  height: 20em;
+  width: 20em;
+}
+
 }
