@@ -219,12 +219,12 @@ input:focus {
   }
   input {
     height: 2.4em;
-    width: 70%; 
+    width: 80%; 
     margin-top: 50%;  
 }
 .login-btn{
   height: 2.6em;
-    width: 70%;
+    width: 80%;
     margin-bottom: 10px; 
 }
 .login-btn:hover { transform: scale(1);}
@@ -260,7 +260,7 @@ input:focus {
 }
 
 .btn-lg{
-  width:70%;
+  width:80%;
   margin-bottom: 10px;
   height:2.4em;
 }
