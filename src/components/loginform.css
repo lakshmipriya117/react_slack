@@ -1,15 +1,16 @@
 * {
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
     font-family:Slack-Larsseit,Helvetica Neue,Helvetica,Tahoma,Arial,sans-serif;
 }
 .heading{
     font-family: Slack-Larsseit,Helvetica Neue,Helvetica,Segoe UI,Tahoma,Arial,sans-serif;
-    font-size: 48px;
+    font-size: 47px;
     font-weight: 700;
     letter-spacing: -.75px;
     line-height: 46px;
-    margin-bottom: 5px;
+    margin-bottom: 0px;
     max-width: 700px;
     text-align: center;
 }
@@ -28,11 +29,11 @@ a:active { text-decoration: none; }
     color: #454245;
     font-size: 18px;
     line-height: 27px;
-    margin-bottom: 32px;
+    margin-bottom: 20px;
     max-width: 700px;
     text-align: center;
     font-weight: 500;
-    margin-top: 15px;
+    margin-top: 2px;
 }
 
 
@@ -103,17 +104,23 @@ input {
     height: 2.4em;
     width: 60%;
     border-radius: 0.25em;
-    text-align: center;
+    text-align: left;
     padding: 11px 12px 13px;
-    
-    font-size: 18px;
+    font-size: 15px;
     line-height: 1.33333333;
     
 }
 .link{
     font-size: 15px;
     font-weight: 400;
-    
+    margin-bottom: 20px;  
+}
+.fa-google {
+  background: conic-gradient(from -45deg, #ea4335 110deg, #4285f4 90deg 180deg, #34a853 180deg 270deg, #fbbc05 270deg) 73% 55%/150% 150% no-repeat;
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
 }
 
 input:focus {
@@ -122,8 +129,8 @@ input:focus {
 
 .login-btn {
     width: 60%;
-    height: 4em;
-    background-color: rgb(79, 25, 79);
+    height: 2.7em;
+    background-color: rgb(87, 28, 87);
     color: white;
     display: flex;
     justify-content: center;
@@ -137,23 +144,7 @@ input:focus {
 
 .login-btn:hover { transform: scale(1);}
 
-.card__apple{
-    border-radius: 0;
-    border-width: medium;
-    padding:.6rem 1.3rem;
-    background-color: #fff;
-    border: 2px solid green;
-    width: 60%;
-    height: 45px;
-    font-size:20px;
-    padding:10px;
-    margin:3px 7rem;
-  }
-  .card__apple:hover{
-    cursor:pointer;
-    background-color: rgb(108, 92, 201);
-  }
-
+/* 
 .card__google{
     border-radius: 0;
     border-width: medium;
@@ -170,15 +161,16 @@ input:focus {
   .card__google:hover{
     cursor:pointer;
     background-color: rgb(108, 92, 201);
-  }
+  } */
   .x{
-    margin-top: 15px;
-    font-size: 17px;
+    margin-top: 7px;
+    font-size: 15px;
   }
   .y{
-    font-size: 17px;
+    font-size: 15px;
     margin-bottom: 3em;
-    margin-top: 1px;
+    color:#20519b ;
+    
   }
 
 .text {
@@ -206,22 +198,33 @@ input:focus {
     transform: scale(1);
     transition: 1.5s;
 }
-@media screen and (max-width: 768px) {
+.btn-lg{
+  border-radius: 0;
+  border-width: medium;
+  margin-bottom: 20px;
+  padding:.6rem 1.3rem;
+  font-size: 4px;
+  /* background-color: aqua; */
+  width: 60%;
+  height: 2.3em;
+}
+@media screen and (max-width: 1024px) {
   .heading{
-    font-size: 80%;
+    font-size: 40px;
+    
   }
 
   .s-head{
     margin-top: 10px;
   }
   input {
-    height: 60%;
-    width: 90%; 
+    height: 2.4em;
+    width: 70%; 
     margin-top: 50%;  
 }
 .login-btn{
-  height: 120%;
-    width: 90%;
+  height: 2.6em;
+    width: 70%;
     margin-bottom: 10px; 
 }
 .login-btn:hover { transform: scale(1);}
@@ -233,8 +236,6 @@ input:focus {
     margin-top: .1em;
   }
   .container-image {
-    
-   
     height: 75px;
     width: 100px;
     margin-top: 3px;
@@ -251,21 +252,17 @@ input:focus {
     font-weight: 700;
     letter-spacing: -.75px;
     line-height: 46px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     max-width: 700px;
     text-align: center;
+    padding-right: 5px;
+  
 }
-.card__apple{
-  font-size: 1.5rem;
-  margin: 1rem .5rem;
-  width: 90%;
-  height:100%;
-}
-.card__google{
- font-size: 1.5rem;
-  margin: 1rem .5rem;
-  width: 90%;
-  height:100%;
+
+.btn-lg{
+  width:70%;
+  margin-bottom: 10px;
+  height:2.4em;
 }
 .page{
   height: 100%;

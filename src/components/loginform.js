@@ -22,20 +22,22 @@ const LoginForm = () => {
            </div>
              
 
-        <h1 className="heading">First of all, enter your email address</h1>
-         <h2 className="s-head">We suggest using the email account that you use for work</h2>
+        <h1 className="heading">First,enter your email</h1>
+         <h2 className="s-head">We suggest using <b>the email address you use at work</b></h2>
 
 
             <input type="email" placeholder="name@work-email.com" required/>
-             <div className="login-btn" onClick={popup}>Continue</div>
+             <div className="login-btn" onClick={popup}><b>Continue</b></div>
 
 
             <h5>OR</h5>
 
-            <a class="btn btn-secondary card__google" href="https://google.com" target=""_blank style={{color:"blue",background:"white",border:"solid blue"}}><i class="fab fa-google">
-            </i>&nbsp;Continue with Google</a>
-            <a class="btn btn-secondary card__apple" href="https://appleid.apple.com" target=""_blank style={{color:"black",background:"white",border:"solid black"}}><i class="fab fa-apple">
-            </i>&nbsp;Continue with Apple</a>
+            {/* <a class="btn btn-secondary card__google" href="https://google.com" target=""_blank style={{color:"blue",background:"white",border:" solid blue",textAlign:"center"}}><i class="fab fa-google">
+            </i>&nbsp;&nbsp;Continue with Google</a> */}
+
+            <a class="btn btn-lg " href="https://google.com"  style={{color:"#4285f4",background:"white",border:" solid #4285f4"}}><i class="fab fa-google"></i><b>&nbsp;&nbsp;Continue with Google</b></a>
+            <a class="btn btn-outline-light btn-lg " href="https://appleid.apple.com"  style={{color:"black",background:"white",border:" solid black"}}><i class="fab fa-apple"></i><b>&nbsp;&nbsp;Continue with Apple</b></a>
+            
 
 
             <p className="x">Already using slack?</p>
