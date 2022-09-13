@@ -5,7 +5,7 @@ Did the front designing taking SLACK LOGIN as a sample and results are attached 
 features included:<BR/>
 #REACT<BR/>
 #HTML<BR/>
-#CSS<BR/><BR/>
+#CSS<BR/>
 #JAVASCRIPT<BR/>
 #BOOTSTRAP<BR/>
 
