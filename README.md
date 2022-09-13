@@ -12,6 +12,7 @@ features included:<BR/>
 <HR/>
 left:ORIGINAL<BR/><BR/>
 right:SAMPLE CREATED<BR/>
-![image](https://user-images.githubusercontent.com/36601848/189938666-a10232d1-5f67-4513-9889-4a3366f771d8.png)
+<img width="774" alt="SSLSL" src="https://user-images.githubusercontent.com/36601848/189938905-835b06e0-f15e-4bbb-af97-cc0b759d7fd0.png">
+
 
 
