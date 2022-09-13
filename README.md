@@ -10,7 +10,7 @@ features included:<BR/>
 #BOOTSTRAP<BR/>
 
 <HR/>
-left:ORIGINAL<BR/><BR/>
+left:ORIGINAL<BR/>&NBSP;&NBSP;&NBSP;&NBSP;&NBSP;
 right:SAMPLE CREATED<BR/>
 <img width="774" alt="SSLSL" src="https://user-images.githubusercontent.com/36601848/189938905-835b06e0-f15e-4bbb-af97-cc0b759d7fd0.png">
 
